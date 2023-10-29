@@ -1,0 +1,28 @@
+{
+    "name": "polyphi",
+    "description": "Easily find the paragraph/stanza and line number with this neato tool!",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "scripting",
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    },
+    "action": {
+        "default_title": "chirp chirp !!"
+    },
+    "icons": {
+        "16": "birdIcon.png",
+        "32": "birdIcon.png",
+        "48": "birdIcon.png",
+        "128": "birdIcon.png"
+    },
+    "web_accessible_resources": [{ 
+        "resources": [ "/sounds/chirp-rise.mp3", "/sounds/chirp-fall.mp3", "/sounds/peck.mp3", "/sounds/chirp-up-down.mp3", "polyphi.css" ],
+        "matches": ["https://*.submittable.com/*"]
+    }]
+}

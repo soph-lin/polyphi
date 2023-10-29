@@ -1,0 +1,118 @@
+#polyphi-menu-container {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: transparent;
+
+    z-index: 2147483002; /* 1 bigger than that magnifying glass icon in botton right corner lmao */
+
+    color: #046404;
+    padding: 5px;
+    font-size: 11px;
+    font-family:'Courier New', Courier, monospace;
+
+    align-items: center; /*uhh not sure why these don't need 'display: flex' but whatevs*/
+    justify-content: center;
+    text-align: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+         user-select: none;
+}
+
+#polyphi-menu {
+    background-color: #E6DEC9;
+    margin: auto;
+    min-width: 300px;
+    min-height: 100px;
+    padding: 15px;
+
+    border: 1px solid #046404;
+    border-radius: 5px;
+}
+
+#polyphi-menu-title {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#polyphi-menu .div {
+    display: block;
+}
+
+/* SETTINGS
+- https://www.w3schools.com/howto/howto_css_switch.asp
+*/ 
+
+#polyphi-settings {
+    display: flex;
+    align-items: center;
+}
+
+:root {
+    --layer-panel: 20;
+    --layer-modal: 30;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    transform: translateX(8px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
