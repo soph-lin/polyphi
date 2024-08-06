@@ -58,11 +58,6 @@
 * Reset anything you want! Polyphi will revert back to default values.
 * Reload if anything goes awry with Polyphi, which happens when it times out (reloads the extension).
 
-# Feedback 🙃
-
-Polyphi's just a fledgling extension (haha get it), so feel free to let me know if there are any features you'd like to see added or errors that you want fixed! 
-
-* Email: slin12321@gmail.com
-* Discord: ya know where to find me on the polyphony lit server ;) (sophie, exec editor)
+# End 🙃
 
 Thank you for trying out Polyphi, and I hope you have a lovely day!! Stay cozy ☕
