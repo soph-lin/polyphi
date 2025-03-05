@@ -1,5 +1,10 @@
 # Welcome to Polyphi! 👋
 
+## A cool demo video
+https://github.com/user-attachments/assets/1e4a4fcd-d297-438b-ae78-7d4a8b531524
+
+
+## Setup
 1. Download files by going to Code, then Download ZIP. Make sure to unzip it after it's downloaded.
 
 ![image](https://github.com/ACulturedSwine/polyphi/assets/98501518/77b8bb9a-715d-4bc3-a513-8990683452db)
